@@ -24,7 +24,6 @@ export default class Reply extends BaseModel {
 
   @belongsTo(() => User)
     public user: BelongsTo<typeof User>
-    
   @belongsTo(() => Thread)
     public thread: BelongsTo<typeof Thread>
 }
